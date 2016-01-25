@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('dd/d0f/script_8cpp_source.html','../..
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('dd/d0f/script_8cpp_source.html','../..
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;iostream&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">   21</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">Callback</a>(<span class="keyword">const</span> beginner_tutorials::Num::ConstPtr&amp;temp_msg){</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">   21</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">Callback</a>(<span class="keyword">const</span> beginner_tutorials::Num::ConstPtr&amp;<a class="code" href="../../d6/d57/ServoControl2_8cpp.html#aab259f421b0e83f2fddf84b7c1c94fa5">temp_msg</a>){</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">//ROS_INFO(&quot;I heard %4.2f&quot;,temp_msg-&gt;data);</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> temp = temp_msg-&gt;data;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    cout&lt;&lt; <span class="stringliteral">&quot;Temperature (°C): &quot;</span>&lt;&lt; temp &lt;&lt;<span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -156,13 +156,14 @@ $(document).ready(function(){initNavTree('dd/d0f/script_8cpp_source.html','../..
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 <div class="ttc" id="script_8cpp_html_aa80ade5ac292e7c72b4c7e1f8ab3f0a0"><div class="ttname"><a href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">Callback</a></div><div class="ttdeci">void Callback(const beginner_tutorials::Num::ConstPtr &amp;temp_msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d0f/script_8cpp_source.html#l00021">script.cpp:21</a></div></div>
 <div class="ttc" id="script_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dd/d0f/script_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d0f/script_8cpp_source.html#l00059">script.cpp:59</a></div></div>
+<div class="ttc" id="ServoControl2_8cpp_html_aab259f421b0e83f2fddf84b7c1c94fa5"><div class="ttname"><a href="../../d6/d57/ServoControl2_8cpp.html#aab259f421b0e83f2fddf84b7c1c94fa5">temp_msg</a></div><div class="ttdeci">beginner_tutorials::Num temp_msg</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/ServoControl2_8cpp_source.html#l00029">ServoControl2.cpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d0f/script_8cpp.html">script.cpp</a></li>
-    <li class="footer">Generated on Mon Jan 25 2016 16:04:15 for Testing ROS by
+    <li class="footer">Generated on Mon Jan 25 2016 18:19:52 for Testing ROS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -7,16 +7,18 @@
 
 var indexSectionsWithContent =
 {
-  0: "cms",
+  0: "clmnpst",
   1: "s",
-  2: "cm"
+  2: "clmps",
+  3: "nst"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "files",
-  2: "functions"
+  2: "functions",
+  3: "variables"
 };
 
 function convertToId(search)

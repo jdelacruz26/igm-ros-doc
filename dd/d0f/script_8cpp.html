@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('dd/d0f/script_8cpp.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('dd/d0f/script_8cpp.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa80ade5ac292e7c72b4c7e1f8ab3f0a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">Callback</a> (const beginner_tutorials::Num::ConstPtr &amp;temp_msg)</td></tr>
+<tr class="memitem:aa80ade5ac292e7c72b4c7e1f8ab3f0a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0f/script_8cpp.html#aa80ade5ac292e7c72b4c7e1f8ab3f0a0">Callback</a> (const beginner_tutorials::Num::ConstPtr &amp;<a class="el" href="../../d6/d57/ServoControl2_8cpp.html#aab259f421b0e83f2fddf84b7c1c94fa5">temp_msg</a>)</td></tr>
 <tr class="separator:aa80ade5ac292e7c72b4c7e1f8ab3f0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0f/script_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 <tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +144,7 @@ Functions</h2></td></tr>
 <p>Definition at line <a class="el" href="../../dd/d0f/script_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../dd/d0f/script_8cpp_source.html">script.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                           {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">//ROS_INFO(&quot;I heard %4.2f&quot;,temp_msg-&gt;data);</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> temp = temp_msg-&gt;data;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> temp = <a class="code" href="../../d6/d57/ServoControl2_8cpp.html#aab259f421b0e83f2fddf84b7c1c94fa5">temp_msg</a>-&gt;data;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    cout&lt;&lt; <span class="stringliteral">&quot;Temperature (°C): &quot;</span>&lt;&lt; temp &lt;&lt;<span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ros::NodeHandle n;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ros::Publisher servo_pub = n.advertise&lt;std_msgs::UInt16&gt;(<span class="stringliteral">&quot;servo&quot;</span>,1000);</div>
@@ -166,6 +166,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        ++count;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="ttc" id="ServoControl2_8cpp_html_aab259f421b0e83f2fddf84b7c1c94fa5"><div class="ttname"><a href="../../d6/d57/ServoControl2_8cpp.html#aab259f421b0e83f2fddf84b7c1c94fa5">temp_msg</a></div><div class="ttdeci">beginner_tutorials::Num temp_msg</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/ServoControl2_8cpp_source.html#l00029">ServoControl2.cpp:29</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -214,7 +215,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d0f/script_8cpp.html">script.cpp</a></li>
-    <li class="footer">Generated on Mon Jan 25 2016 16:04:15 for Testing ROS by
+    <li class="footer">Generated on Mon Jan 25 2016 18:19:52 for Testing ROS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -5,7 +5,8 @@ var NAVTREE =
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ]
       ] ]
     ] ]
   ] ]
@@ -13,7 +14,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dd/d0f/script_8cpp.html"
+"d6/d57/ServoControl2_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
